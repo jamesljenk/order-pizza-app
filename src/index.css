@@ -1,4 +1,6 @@
 body {
+  background-image: url("tablecloth.png");
+  background-size: auto;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +12,32 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+div.formSection {
+  width: 200px;
+  border: 4px solid #000000;
+  float: left;
+  padding: 5px;
+}
+
+.mainForm {
+
+  margin: auto;
+  width: 624px;
+}
+
+.toppings {
+  margin-right: 100px;
+  float: left;
+}
+
+.toppingsForm{
+  border: 4px solid #000000;
+  float: left;
+  width: 600px;
+}
+
+h1{
+  margin: auto;
 }
