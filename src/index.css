@@ -24,7 +24,7 @@ div.formSection {
 .mainForm {
 
   margin: auto;
-  width: 624px;
+  width: 832px;
 }
 
 .toppings {
@@ -35,7 +35,7 @@ div.formSection {
 .toppingsForm{
   border: 4px solid #000000;
   float: left;
-  width: 600px;
+  width: 800px;
 }
 
 h1{

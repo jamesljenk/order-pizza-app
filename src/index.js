@@ -6,6 +6,7 @@ import ToppingsFormSection from './components/toppingsFormSection'
 import CrustFormSection from './components/crustFormSection'
 import CheeseFormSection from './components/cheeseSelectionFormSection'
 import SauceAmountFormSection from './components/sauceAmountFormSection'
+import PizzaSizeFormSection from './components/pizzaSizeFormSection'
 import 'bootstrap/dist/css/bootstrap.css'
 
 ReactDOM.render(
@@ -15,6 +16,7 @@ ReactDOM.render(
       <h1 className="m-3">Pipper's Pippin Hot Pizza Parlor</h1>
       <form className="badge badge-light">
         <h2>Order Form</h2>
+        <PizzaSizeFormSection />
         <CheeseFormSection />
         <CrustFormSection />
         <SauceAmountFormSection />

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import CrustChoice from './crustChoice'
 
-class crustFormSection extends Component {
+class CrustFormSection extends Component {
     state = {  
         crustTypes: [
             "Hand-Tossed",
@@ -20,4 +20,4 @@ class crustFormSection extends Component {
     }
 }
  
-export default crustFormSection;
+export default CrustFormSection;
