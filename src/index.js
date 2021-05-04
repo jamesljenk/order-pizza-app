@@ -2,28 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import ToppingsFormSection from './components/toppingsFormSection'
-import CrustFormSection from './components/crustFormSection'
-import CheeseFormSection from './components/cheeseSelectionFormSection'
-import SauceAmountFormSection from './components/sauceAmountFormSection'
-import PizzaSizeFormSection from './components/pizzaSizeFormSection'
+import PizzaApp from './components/pizzaApp'
+
 import 'bootstrap/dist/css/bootstrap.css'
 
 ReactDOM.render(
   <React.StrictMode>
-
-    <div className="mainForm">
-      <h1 className="m-3">Pipper's Pippin Hot Pizza Parlor</h1>
-      <form className="badge badge-light">
-        <h2>Order Form</h2>
-        <PizzaSizeFormSection />
-        <CheeseFormSection />
-        <CrustFormSection />
-        <SauceAmountFormSection />
-        <ToppingsFormSection />
-      </form>
-
-    </div>
+    <PizzaApp />
   </React.StrictMode>,
   document.getElementById('root')
 );

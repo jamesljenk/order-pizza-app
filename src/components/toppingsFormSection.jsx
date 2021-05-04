@@ -6,7 +6,7 @@ class ToppingsFormSection extends Component {
         
      }
 
-    toppings = ['Pepperoni','Sausage','Ham','Bacon','Ground Beef','Chicken','Green Peppers','Olives','Onions','Red Peppers','Mushrooms']
+    toppings = ['Pepperoni','Sausage','Ham','Bacon','Ground Beef','Chicken','Green Peppers','Olives','Onions','Red Peppers','Mushrooms', 'Anchovies', 'Pineapple', 'Jalapeño', 'Spinach', 'Meatballs']
 
     render() { 
         return (  

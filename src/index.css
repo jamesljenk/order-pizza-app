@@ -38,6 +38,24 @@ div.formSection {
   width: 800px;
 }
 
+.cartItem
+{
+  width: 800px;
+}
+
+hr.rounded {
+  border-top: 8px solid rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
 h1{
   margin: auto;
+}
+
+.orderReview{
+  width: 800px;
+  word-wrap: normal;
+  overflow-wrap: anywherel;
+  background-color: white;
+  border: 4px solid #000000;
 }

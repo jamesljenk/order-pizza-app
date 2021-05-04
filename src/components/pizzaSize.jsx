@@ -7,7 +7,7 @@ class PizzaSize extends Component {
 
             <div> 
                 <label className="m-1">{this.props.size}</label>
-                <input id={this.props.id+"-Size"} type="radio" name="size" ></input>
+                <input checked formname={this.props.size+" Pizza"}id={this.props.id+"-Size"} type="radio" name="size" ></input>
             </div>
 
         );

@@ -8,8 +8,8 @@ class Topping extends Component {
     render() { 
         return ( 
             <div className="toppings m-3">
-                <span id={this.props.toppingName+"Topping"} className="m-1" >{this.props.toppingName}</span>
-                <input type="checkbox"></input>
+                <span className="m-1" >{this.props.toppingName}</span>
+                <input id={this.props.toppingName+"Topping"} formName={this.props.toppingName} type="checkbox"></input>
             </div>
          );
     }
