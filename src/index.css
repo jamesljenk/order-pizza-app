@@ -54,10 +54,8 @@ h1{
 
 .orderReview{
   width: 800px;
-  max-height: 400px;
   word-wrap: normal;
-  overflow-wrap: anywhere;
-
+  overflow-wrap: anywherel;
   background-color: white;
   border: 4px solid #000000;
 }
