@@ -34,7 +34,7 @@ class PizzaApp extends Component {
 
     generateReview = () => {
         let orderReview = ""
-        let cartItems = this.state.cartCopy;
+        let cartItems = this.state.cartItems
         console.log(cartItems)
         for (let i=0; i<cartItems.length; i++)
         {
@@ -49,9 +49,9 @@ class PizzaApp extends Component {
         let pizzaName = ""
         let pizzaSummary = ""
         for (let i=0; i < pizzaForm.length; i++){
-            if (pizzaForm[i].checked==true && pizzaForm[i].attributes.formname.value !="Anchovies"){
+            if (pizzaForm[i].checked==true){
                 pizzaSummary += pizzaForm[i].attributes.formname.value+','
-                if (pizzaName=="" && window.navigator.userAgent.indexOf("Edg") == -1){
+                if (pizzaName==""){
                     pizzaName=pizzaForm[i].attributes.formname.value
                 }
             }
@@ -64,13 +64,11 @@ class PizzaApp extends Component {
             cartId: cartId
         }
         let cartItems = this.state.cartItems
-        let cartCopy = this.state.cartCopy
-        cartCopy.push(pizzaCartItem)
         cartItems.push(pizzaCartItem)
         const stateObject = {
             cartItems:cartItems,
             totalUniqueItems:cartId,
-            cartCopy: cartCopy
+            cartCopy: cartItems
         }
 
 
