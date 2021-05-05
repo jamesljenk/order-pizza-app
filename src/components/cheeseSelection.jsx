@@ -7,7 +7,7 @@ class CheeseSelection extends Component {
 
             <div>
                 <label className="m-1">{this.props.cheeseAmount}</label>
-                <input formname={this.props.cheeseAmount + " Cheese"} id={this.props.id+"-Cheese"} type="radio" name="Cheese" ></input>
+                <input checked formname={this.props.cheeseAmount + " Cheese"} id={this.props.id+"-Cheese"} type="radio" name="Cheese" ></input>
             </div>
 
         );
