@@ -7,14 +7,18 @@ import PizzaSizeFormSection from './pizzaSizeFormSection'
 
 class PizzaForm extends Component {
     state = {  }
-    render() { 
-        return ( 
-        <form className="badge badge-light">
-            <h2>Order Form</h2>
-            <PizzaSizeFormSection />
-            <CheeseFormSection />
-            <CrustFormSection />
-            <SauceAmountFormSection />
+    render() {
+        return (
+        <form>
+            <h2>Build Your Pizza</h2>
+            <div className="formSectionsContainer">
+                <PizzaSizeFormSection />
+                <CheeseFormSection />
+            </div>
+            <div className="formSectionsContainer">
+                <CrustFormSection />
+                <SauceAmountFormSection />
+            </div>
             <ToppingsFormSection />
         </form>
          );

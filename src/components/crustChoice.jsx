@@ -5,9 +5,9 @@ class CrustChoice extends Component {
     render() { 
         return (  
 
-            <div> 
+            <div>
                 <label className="m-1">{this.props.crustType}</label>
-                <input formname={this.props.crustType + " Crust"}id={this.props.id+"-Crust"} type="radio" name="crust" ></input>
+                <input formname={this.props.crustType + " Crust"} id={this.props.id+"-Crust"} type="radio" name="crust" ></input>
             </div>
 
         );
